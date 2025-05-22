@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.loginForm {
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.loginForm h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #333;
+}
+
+.formGroup {
+  margin-bottom: 1rem;
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.formGroup input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+.error {
+  color: #d32f2f;
+  background-color: #fde0e0;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.submitButton {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: #f4d6fa;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+.submitButton:hover {
+  background-color: #f4d6fa;
+}
+
+.submitButton:disabled {
+  background-color: #f4d6fa;
+  cursor: not-allowed;
+}
+
+.registerLink {
+  text-align: center;
+  margin-top: 1rem;
+  color: #666;
+}
+
+.registerLink a {
+  color: #ec90fe;
+  text-decoration: none;
+}
+
+.registerLink a:hover {
+  text-decoration: underline;
+}

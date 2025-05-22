@@ -1,0 +1,37 @@
+:root {
+  --main-pink: #fcecff;
+  overflow-x: hidden;
+  font-family: 'Ubuntu';
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./fonts/Ubuntu-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/Ubuntu-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Ubuntu';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./fonts/Ubuntu-SemiBold.ttf') format('truetype');
+}
+
+a {
+  color: black;
+}
